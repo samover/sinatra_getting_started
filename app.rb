@@ -14,6 +14,7 @@ end
 
 
 get '/cat' do
+  @name = ['Rathgar','Oscar','Polly','Troy'].sample
   erb(:index)
 end
 
